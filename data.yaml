@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 14
+names: ['A-24', 'A-32a', 'A-32b', 'I-E', 'I-SA', 'O-MP', 'R-15', 'R-19', 'R-2', 'R-24a', 'R-3', 'R-5a', 'R-5b', 'R-6c']
+
+roboflow:
+  workspace: yolo-uiruj
+  project: brazilian-traffic-signs
+  version: 2
+  license: MIT
+  url: https://universe.roboflow.com/yolo-uiruj/brazilian-traffic-signs/dataset/2
